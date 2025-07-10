@@ -4,8 +4,8 @@
 
 # Day 2:
 
-[Task 1](https://mohamed-awad12.github.io/iti_task/Day2/form.html) <br>
-[Task 2](https://mohamed-awad12.github.io/iti_task/Day2/index.html)
+[Task 1](https://mohamed-awad12.github.io/iti_tasks/Day2/index.html) <br>
+[Task 2](https://mohamed-awad12.github.io/iti_tasks/Day2/form.html)
 
 # Day 3:
 
