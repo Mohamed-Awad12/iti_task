@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Your Basic Info</h1>
+
+        <form action="./index.html" method="get">
+            <fieldset>
+                <legend> my form</legend>
+        <label for="name">Username</label>
+        <input type="text" name="user" id="name", placeholder="Username">
+
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="email">
+
+        <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" name="Password" id="password" placeholder="password">
+
+        <br><br>
+        <span>age:</span>
+        <br>
+        <label for="age">under 16</label>
+        <input type="radio" name="age" id="age" value="">
+        <br>
+        <label for="notage">16 or older</label>
+        <input type="radio" name="age" id="notage">
+
+        <h1>Your profile:</h1>
+        <label for="bio">Biography</label>
+        <textarea rows="10" cols="50" id="bio"></textarea>
+
+        <br><br>
+        <label for="sel">select course</label>
+        <select name="sel" id="sel">
+            <option value="web">web</option>
+            <option value="security">security</option>
+            <option value="mobile">mobile</option>
+            <option value="Ai">Ai</option>
+        </select>
+
+        <br><br>
+        <label for="eng">Engineering</label>
+        <input type="checkbox" name="eng" id="eng">
+        <br>
+        <label for="bis">Business</label>
+        <input type="checkbox" name="bis" id="bis">
+        <br>
+        <label for="law">Law</label>
+        <input type="checkbox" name="law" id="law">
+        
+        <br><br>
+        <input type="submit" name="sub" id="sub">
+        </fieldset>
+        </form>
+    </div>
+    
+
+</body>
+</html>
