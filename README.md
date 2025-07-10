@@ -1,6 +1,6 @@
 # Day 1:
 
-[Task 1](https://mohamed-awad12.github.io/iti_task/Day1/day1.html)
+[Task 1](https://mohamed-awad12.github.io/iti_tasks/Day1/day1.html)
 
 # Day 2:
 
