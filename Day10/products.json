@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Air bods",
+    "price": 10.99,
+    "img": "./imgs/1.jpg"
+  },
+  {
+    "name": "shoes",
+    "price": 20.50,
+    "img": "./imgs/2.jpeg"
+  },
+  {
+    "name": "fridge",
+    "price": 15.00,
+    "img": "./imgs/3.avif"
+  },
+  {
+    "name": "Samsung",
+    "price": 20.50,
+    "img": "./imgs/4.avif"
+  },
+  {
+    "name": "Headphones",
+    "price": 20.50,
+    "img": "./imgs/5.avif"
+  },
+  {
+    "name": "Warfare",
+    "price": 20.50,
+    "img": "./imgs/6.avif"
+  },
+  {
+    "name": "RGB Mouse",
+    "price": 20.50,
+    "img": "./imgs/7.avif"
+
+  },
+  {
+    "name": "Bridgestone Dueler",
+    "price": 20.50,
+    "img": "./imgs/8.avif"
+  }
+]
