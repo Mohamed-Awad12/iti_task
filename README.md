@@ -38,9 +38,9 @@
 [Task 1](https://mohamed-awad12.github.io/iti_tasks/Day8/index.html)<br>
 
 # Day 9:
-[Task 1](https://mohamed-awad12.github.io/iti_tasks/Day9/Task1/index.html)<br>
-[Task 2](https://mohamed-awad12.github.io/iti_tasks/Day9/Task2/index.html)<br>
-[Task 3](https://mohamed-awad12.github.io/iti_tasks/Day9/Task3/index.html)
+[Task 1](https://mohamed-awad12.github.io/iti_tasks/Day9/task1/index.html)<br>
+[Task 2](https://mohamed-awad12.github.io/iti_tasks/Day9/task2/index.html)<br>
+[Task 3](https://mohamed-awad12.github.io/iti_tasks/Day9/task3/index.html)
 
 # Day 10:
 [Task 1](https://mohamed-awad12.github.io/iti_tasks/Day10/index.html)<br>
