@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background: #f4f4f4;
+}
+
+div {
+    background: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px #ccc;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 80%;
+}

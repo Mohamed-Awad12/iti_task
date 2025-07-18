@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ <link rel="stylesheet" href="./style.css">
+</head>
+<body">
+
+  <div class="gallery">
+    <img src="img1.jpeg" onmouseover="showPreview('./img1.jpeg') " onmouseleave = "resetPreview()">
+    <img src="img2.jpeg" onmouseover="showPreview('./img2.jpeg')" onmouseleave = "resetPreview()">
+    <img src="img3.jpeg" onmouseover="showPreview('./img3.jpeg')" onmouseleave = "resetPreview()">
+  </div>
+
+  <div class="preview">
+    <img id="mainImage" src="./download.png">
+  </div>
+
+
+  <script src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+    body {
+        margin: 0;
+        font-family: sans-serif;
+    }
+
+    .gallery {
+        display: flex;
+        justify-content: space-around;
+        border: 2px solid black;
+        padding: 10px;
+        background: white;
+    }
+
+    .gallery img {
+        width: 100px;
+        height: 70px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .preview {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .preview img {
+        width: 600px;
+        height: 350px;
+        object-fit: cover;
+        border: 1px solid black;
+    }

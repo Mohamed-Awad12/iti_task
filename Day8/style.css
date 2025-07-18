@@ -1,0 +1,32 @@
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns button{
+    background-color: rgb(28, 218, 240);
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.btns button:hover{
+    background-color: rgb(40, 81, 0);
+    color: white;
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.imgs{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs img{
+    width: 500px;
+}

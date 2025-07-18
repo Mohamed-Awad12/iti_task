@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="register">
+    <h2>Register</h2>
+    <p class="wrong" id = "wrongReg"></p>
+    <input type="text" id="regUsername" placeholder="Username">
+    <input type="password" id="regPassword" placeholder="Password">
+    <input type="email" id="regEmail" placeholder="Email">
+    <button onclick="register()">Register</button>
+    <p>Already have an account? <a href="#" onclick="showLogin()">Login</a></p>
+  </div>
+
+  <div id="login" style="display:none">
+    <h2>Login</h2>
+    <p class="wrong" id = "wrongLog"></p>
+    <input type="text" id="loginUsername" placeholder="Username">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p>Don't have an account? <a href="#" onclick="showRegister()">Register</a></p>
+  </div>
+
+  <div id="home" style="display:none">
+    <h2>Welcome, <span id="userDisplay"></span>!</h2>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
