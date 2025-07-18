@@ -1,24 +1,4 @@
-// let firstName = prompt("Enter your first name: ")
-// let secondName = prompt("Enter your second name: ")
-// let address = prompt("Enter your address: ")
-// window.alert("Hello, "+ firstName + " " + secondName + " from " + address)
 
-
-
-// let mx = -1e9;
-// for(let i = 0; i < 3; i++){
-//     let num = prompt("Enter a number" )
-//     if(num > mx) mx = num;
-// }
-
-// window.alert("the max number is: " + mx)
-
-
-// let text = prompt("Enter a text: ");
-
-// for (let i = 1; i <= 6; i++) {
-//     document.write(`<h${i}>${text}</h${i}>`);
-// }
 
 let tries = 3;
 let name;

@@ -1,4 +1,4 @@
-const images = ["img1.jpeg", "img2.jpeg", "img3.jpeg", "img4.jpeg"];
+const images = ["./imgs/img1.jpeg", "./imgs/img2.jpeg", "./imgs/img3.jpeg", "./imgs/img4.jpeg"];
 
 function disableButtons(en) {
   const buttons = document.querySelectorAll("button");

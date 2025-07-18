@@ -5,12 +5,12 @@
     "img": "./imgs/1.jpg"
   },
   {
-    "name": "shoes",
+    "name": "Shoes",
     "price": 20.50,
     "img": "./imgs/2.jpeg"
   },
   {
-    "name": "fridge",
+    "name": "Fridge",
     "price": 15.00,
     "img": "./imgs/3.avif"
   },
@@ -33,11 +33,70 @@
     "name": "RGB Mouse",
     "price": 20.50,
     "img": "./imgs/7.avif"
-
   },
   {
     "name": "Bridgestone Dueler",
     "price": 20.50,
     "img": "./imgs/8.avif"
+  },
+  {
+    "name": "Gaming Keyboard",
+    "price": 25.99,
+    "img": "./imgs/9.avif"
+  },
+  {
+    "name": "LED Monitor",
+    "price": 85.00,
+    "img": "./imgs/10.avif"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "price": 18.75,
+    "img": "./imgs/11.avif"
+  },
+  {
+    "name": "Smart Watch",
+    "price": 30.50,
+    "img": "./imgs/12.avif"
+  },
+  {
+    "name": "Laptop Stand",
+    "price": 12.99,
+    "img": "./imgs/13.avif"
+  },
+  {
+    "name": "Wireless Charger",
+    "price": 9.99,
+    "img": "./imgs/14.avif"
+  },
+  {
+    "name": "Phone Case",
+    "price": 7.99,
+    "img": "./imgs/15.avif"
+  },
+  {
+    "name": "Portable SSD",
+    "price": 60.00,
+    "img": "./imgs/16.avif"
+  },
+  {
+    "name": "Tablet",
+    "price": 110.00,
+    "img": "./imgs/17.avif"
+  },
+  {
+    "name": "Electric Kettle",
+    "price": 22.00,
+    "img": "./imgs/18.avif"
+  },
+  {
+    "name": "Microwave Oven",
+    "price": 75.50,
+    "img": "./imgs/19.avif"
+  },
+  {
+    "name": "Mechanical Pencil Set",
+    "price": 4.50,
+    "img": "./imgs/20.avif"
   }
 ]

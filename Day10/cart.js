@@ -1,6 +1,16 @@
 let cart = JSON.parse(localStorage.getItem("cart"));
 const container = document.getElementById("cart");
-console.log(cart)
+// Highlight active page
+document.querySelectorAll('.nav-links a').forEach(link => {
+  if (link.href === window.location.href) {
+    link.classList.add('active');
+  }
+});
+
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("open");
+}
+
 if (cart.length === 0) {
   container.innerHTML = "<p>Your cart is empty.</p>";
 } else {
@@ -23,10 +33,29 @@ if (cart.length === 0) {
     container.appendChild(div);
   });
 
-  const totalElement = document.createElement("h2");
-  totalElement.style.textAlign = "center";
-  totalElement.innerText = `Total: $${total.toFixed(2)}`;
-  container.appendChild(totalElement);
+const totalSection = document.createElement("div");
+totalSection.className = "total-section";
+
+let totalSummaryHTML = `<h2>Summary</h2><div class="summary-items">`;
+
+cart.forEach(product => {
+  const subtotal = product.price * product.quantity;
+  totalSummaryHTML += `
+    <div class="summary-row">
+      <span>${product.name} (${product.quantity} × $${product.price.toFixed(2)})</span>
+      <span>$${subtotal.toFixed(2)}</span>
+    </div>
+  `;
+});
+
+totalSummaryHTML += `</div><hr>
+  <div class="summary-total">
+    <strong>Total:</strong> <span>$${total.toFixed(2)}</span>
+  </div>`;
+
+totalSection.innerHTML = totalSummaryHTML;
+container.after(totalSection);  // Places it after the product grid
+
 }
 
  function submitPayment(event) {

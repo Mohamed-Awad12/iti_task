@@ -24,10 +24,21 @@ xhr.onreadystatechange = () => {
 };
 xhr.send();
 
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("open");
+}
+
 function addToCart(index) {
   const product = window.productsList[index];
   const qtyInput = document.getElementById(`qty-${index}`);
   const quantity = parseInt(qtyInput.value) || 1;
+
+  if(quantity < 1){
+    alert("You have to add at least one element.")
+    qtyInput.value = "1"
+    return
+  }
+  
 
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
