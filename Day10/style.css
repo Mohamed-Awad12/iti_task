@@ -411,7 +411,7 @@ body {
   80% { transform: translate(2px, -2px); }
   90% { transform: translate(-2px, -2px); }
 }
-/* Headings */
+/* Headings *//**/
 h1, h2 {
   color: #ffffff;
   text-align: center;
