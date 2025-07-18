@@ -43,6 +43,6 @@
 [Task 3](https://mohamed-awad12.github.io/iti_tasks/Day9/task3/index.html)
 
 # Day 10:
-[Task 1](https://mohamed-awad12.github.io/iti_tasks/Day10/index.html)<br>
+[Task 10](https://mohamed-awad12.github.io/iti_tasks/Day10/index.html)<br>
 
  
